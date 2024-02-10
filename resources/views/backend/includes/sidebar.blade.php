@@ -1,12 +1,12 @@
 <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="index.html"> <img alt="image" src="assets/img/logo.png" class="header-logo" /> <span
-                class="logo-name">Otika</span>
+            <a href="{{route('dashboard')}}"> <img alt="image" src="{{asset('Backend/assets/img/logo.png')}}" class="header-logo" /> <span
+                class="logo-name">Ecommerce</span>
             </a>
           </div>
           <ul class="sidebar-menu">
-            <li class="menu-header">Main</li>
+            <li class="menu-header">Ecommerce functionality</li>
             <li class="dropdown active">
               <a href="index.html" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
@@ -18,7 +18,7 @@
                 <li><a class="nav-link" href="widget-data.html">Data Widgets</a></li>
               </ul>
             </li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="command"></i><span>Apps</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="chat.html">Chat</a></li>
@@ -26,16 +26,16 @@
                 <li><a class="nav-link" href="blog.html">Blog</a></li>
                 <li><a class="nav-link" href="calendar.html">Calendar</a></li>
               </ul>
-            </li>
-            <li class="dropdown">
+            </li> -->
+            <!-- <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="mail"></i><span>Email</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="email-inbox.html">Inbox</a></li>
                 <li><a class="nav-link" href="email-compose.html">Compose</a></li>
                 <li><a class="nav-link" href="email-read.html">read</a></li>
               </ul>
-            </li>
-            <li class="menu-header">UI Elements</li>
+            </li> -->
+            <!-- <li class="menu-header">UI Elements</li>
             <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="copy"></i><span>Basic
                   Components</span></a>
@@ -182,8 +182,8 @@
                 <li><a class="nav-link" href="contact.html">Contact</a></li>
                 <li><a class="nav-link" href="invoice.html">Invoice</a></li>
               </ul>
-            </li>
-            <li class="dropdown">
+            </li> -->
+            <!-- <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i
                   data-feather="chevrons-down"></i><span>Multilevel</span></a>
               <ul class="dropdown-menu">
@@ -203,7 +203,7 @@
                   </ul>
                 </li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </aside>
       </div>
