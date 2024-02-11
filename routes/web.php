@@ -35,13 +35,9 @@ Route::group(['prefix'=> 'admin'],function(){
     Route::post('/edit/{id}','App\Http\Controllers\Backend\BrandController@update')->name('brand.update');
 
 
- // 06
+ // 01
     // Make a Delete 
     Route::post('/delete/{id}','App\Http\Controllers\Backend\BrandController@destroy')->name('brand.destroy');
-
-
-
-
 
 
     });
