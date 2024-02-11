@@ -182,6 +182,10 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        // for image
+        Intervention\Image\ImageServiceProvider::class,
+
+
         /*
          * Package Service Providers...
          */
@@ -209,7 +213,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+        'image' => Intervention\Image\Facades\Image::class
     ])->toArray(),
 
 ];
