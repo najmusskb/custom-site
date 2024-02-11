@@ -26,10 +26,10 @@
       <option value="inactive">Inactive</option>
     </select>
   </div>
-  <div class="form-group">
+  <!-- <div class="form-group">
     <label>Brand image / Logo</label>
     <input type="file" class="form-control-file" name="image">
-  </div>
+  </div> -->
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 

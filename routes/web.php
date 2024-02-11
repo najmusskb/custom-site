@@ -40,6 +40,8 @@ Route::group(['prefix'=> 'admin'],function(){
     Route::post('/delete/{id}','App\Http\Controllers\Backend\BrandController@destroy')->name('brand.destroy');
 
 
+
+
     });
 
 });
