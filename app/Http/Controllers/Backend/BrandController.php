@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+// model er sathe connection koralam
+use App\Models\Backend\Brand;
 class BrandController extends Controller
 {
     /**
@@ -13,8 +15,9 @@ class BrandController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
+
     {
-        //
+        return view('backend.pages.brand.manage');
     }
 
     /**
@@ -24,7 +27,7 @@ class BrandController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.pages.brand.create');
     }
 
     /**
